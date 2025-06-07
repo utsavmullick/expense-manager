@@ -41,7 +41,7 @@
     const table = document.getElementById("expense-table");
     const chartCtx = document.getElementById("expenseChart").getContext("2d");
 
-    const scriptURL = "https://script.google.com/macros/s/AKfycbyf0GLaBhKzvolPDdArTBaKqynO0pPKAGM6s4tiyEMx1Kz8HCd-qVbYVmYInnxm8WIC7g/exec";
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzQz8E7DdjqZZm8-kJSEnQkIM-3Lwc2EfOASOkEFxQt6ZFGpdTSGiej-TzUjsOU8m7A/exec";
 
     async function fetchExpenses() {
       const res = await fetch(scriptURL + "?mode=get");
